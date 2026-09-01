@@ -169,6 +169,13 @@ void usage() {
 }
 
 
+int give9() {
+  return 9;
+}
+
+//A function that returns 9.
+
+
 /**
   * Test harness for this code
   */
