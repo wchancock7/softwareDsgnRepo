@@ -168,6 +168,12 @@ void usage() {
   exit(1);
 }
 
+int give5() {
+  return 5;
+}
+
+//A function that returns 5.
+
 
 /**
   * Test harness for this code
