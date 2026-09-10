@@ -54,20 +54,22 @@ RM = /home/linuxbrew/.linuxbrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/OzzieT7/APIs
+CMAKE_SOURCE_DIR = "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/OzzieT7/APIs
+CMAKE_BINARY_DIR = "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/CppRestOpenAPIClient.dir/all
+all: CMakeFiles/petstore_example.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/CppRestOpenAPIClient.dir/codegen
+codegen: CMakeFiles/petstore_example.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/CppRestOpenAPIClient.dir/clean
+clean: CMakeFiles/petstore_example.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -85,14 +88,14 @@ clean: CMakeFiles/CppRestOpenAPIClient.dir/clean
 CMakeFiles/CppRestOpenAPIClient.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppRestOpenAPIClient.dir/build.make CMakeFiles/CppRestOpenAPIClient.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppRestOpenAPIClient.dir/build.make CMakeFiles/CppRestOpenAPIClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target CppRestOpenAPIClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target CppRestOpenAPIClient"
 .PHONY : CMakeFiles/CppRestOpenAPIClient.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CppRestOpenAPIClient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/OzzieT7/APIs/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CppRestOpenAPIClient.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/OzzieT7/APIs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" 0
 .PHONY : CMakeFiles/CppRestOpenAPIClient.dir/rule
 
 # Convenience name for target.
@@ -102,13 +105,45 @@ CppRestOpenAPIClient: CMakeFiles/CppRestOpenAPIClient.dir/rule
 # codegen rule for target.
 CMakeFiles/CppRestOpenAPIClient.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppRestOpenAPIClient.dir/build.make CMakeFiles/CppRestOpenAPIClient.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Finished codegen for target CppRestOpenAPIClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Finished codegen for target CppRestOpenAPIClient"
 .PHONY : CMakeFiles/CppRestOpenAPIClient.dir/codegen
 
 # clean rule for target.
 CMakeFiles/CppRestOpenAPIClient.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppRestOpenAPIClient.dir/build.make CMakeFiles/CppRestOpenAPIClient.dir/clean
 .PHONY : CMakeFiles/CppRestOpenAPIClient.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/petstore_example.dir
+
+# All Build rule for target.
+CMakeFiles/petstore_example.dir/all: CMakeFiles/CppRestOpenAPIClient.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petstore_example.dir/build.make CMakeFiles/petstore_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petstore_example.dir/build.make CMakeFiles/petstore_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=20,21 "Built target petstore_example"
+.PHONY : CMakeFiles/petstore_example.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/petstore_example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/petstore_example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" 0
+.PHONY : CMakeFiles/petstore_example.dir/rule
+
+# Convenience name for target.
+petstore_example: CMakeFiles/petstore_example.dir/rule
+.PHONY : petstore_example
+
+# codegen rule for target.
+CMakeFiles/petstore_example.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petstore_example.dir/build.make CMakeFiles/petstore_example.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=20,21 "Finished codegen for target petstore_example"
+.PHONY : CMakeFiles/petstore_example.dir/codegen
+
+# clean rule for target.
+CMakeFiles/petstore_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petstore_example.dir/build.make CMakeFiles/petstore_example.dir/clean
+.PHONY : CMakeFiles/petstore_example.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/OzzieT7/APIs/cmake_install.cmake"
+		"/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

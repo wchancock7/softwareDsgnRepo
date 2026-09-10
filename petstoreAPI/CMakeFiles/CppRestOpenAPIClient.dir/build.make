@@ -53,10 +53,10 @@ RM = /home/linuxbrew/.linuxbrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/OzzieT7/APIs
+CMAKE_SOURCE_DIR = "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/OzzieT7/APIs
+CMAKE_BINARY_DIR = "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CppRestOpenAPIClient.dir/depend.make
@@ -75,254 +75,254 @@ CMakeFiles/CppRestOpenAPIClient.dir/codegen:
 CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.o: src/AnyType.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.o -c /home/OzzieT7/APIs/src/AnyType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/AnyType.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/AnyType.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/AnyType.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/AnyType.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/AnyType.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/AnyType.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.o: src/ApiClient.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.o -c /home/OzzieT7/APIs/src/ApiClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/ApiClient.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/ApiClient.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/ApiClient.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/ApiClient.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/ApiClient.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/ApiClient.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.o: src/ApiConfiguration.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.o -c /home/OzzieT7/APIs/src/ApiConfiguration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/ApiConfiguration.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/ApiConfiguration.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/ApiConfiguration.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/ApiConfiguration.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/ApiConfiguration.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/ApiConfiguration.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.o: src/ApiException.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.o -c /home/OzzieT7/APIs/src/ApiException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/ApiException.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/ApiException.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/ApiException.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/ApiException.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/ApiException.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/ApiException.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.o: src/HttpContent.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.o -c /home/OzzieT7/APIs/src/HttpContent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/HttpContent.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/HttpContent.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/HttpContent.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/HttpContent.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/HttpContent.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/HttpContent.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.o: src/JsonBody.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.o -c /home/OzzieT7/APIs/src/JsonBody.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/JsonBody.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/JsonBody.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/JsonBody.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/JsonBody.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/JsonBody.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/JsonBody.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.o: src/ModelBase.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.o -c /home/OzzieT7/APIs/src/ModelBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/ModelBase.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/ModelBase.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/ModelBase.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/ModelBase.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/ModelBase.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/ModelBase.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.o: src/MultipartFormData.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.o -c /home/OzzieT7/APIs/src/MultipartFormData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/MultipartFormData.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/MultipartFormData.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/MultipartFormData.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/MultipartFormData.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/MultipartFormData.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/MultipartFormData.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.o: src/Object.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.o -c /home/OzzieT7/APIs/src/Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/Object.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/Object.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/Object.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/Object.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/Object.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/Object.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.o: src/api/PetApi.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.o -c /home/OzzieT7/APIs/src/api/PetApi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/api/PetApi.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/api/PetApi.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/api/PetApi.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/api/PetApi.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/api/PetApi.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/api/PetApi.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.o: src/api/StoreApi.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.o -c /home/OzzieT7/APIs/src/api/StoreApi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/api/StoreApi.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/api/StoreApi.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/api/StoreApi.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/api/StoreApi.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/api/StoreApi.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/api/StoreApi.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.o: src/api/UserApi.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.o -c /home/OzzieT7/APIs/src/api/UserApi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/api/UserApi.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/api/UserApi.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/api/UserApi.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/api/UserApi.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/api/UserApi.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/api/UserApi.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.o: src/model/ApiResponse.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.o -c /home/OzzieT7/APIs/src/model/ApiResponse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/ApiResponse.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/model/ApiResponse.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/ApiResponse.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/model/ApiResponse.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/ApiResponse.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/ApiResponse.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.o: src/model/Category.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.o -c /home/OzzieT7/APIs/src/model/Category.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/Category.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/model/Category.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/Category.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/model/Category.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/Category.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Category.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.o: src/model/Order.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.o -c /home/OzzieT7/APIs/src/model/Order.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/Order.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/model/Order.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/Order.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/model/Order.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/Order.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Order.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.o: src/model/Pet.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.o -c /home/OzzieT7/APIs/src/model/Pet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/Pet.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/model/Pet.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/Pet.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/model/Pet.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/Pet.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Pet.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.o: src/model/Tag.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.o -c /home/OzzieT7/APIs/src/model/Tag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/Tag.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/model/Tag.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/Tag.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/model/Tag.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/Tag.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp.s
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/flags.make
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.o: src/model/User.cpp
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.o: CMakeFiles/CppRestOpenAPIClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.o -c /home/OzzieT7/APIs/src/model/User.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.o -MF CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.o.d -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.o -c "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/User.cpp"
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/OzzieT7/APIs/src/model/User.cpp > CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/User.cpp" > CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.i
 
 CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/OzzieT7/APIs/src/model/User.cpp -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/src/model/User.cpp" -o CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.s
 
 # Object files for target CppRestOpenAPIClient
 CppRestOpenAPIClient_OBJECTS = \
@@ -368,7 +368,7 @@ libCppRestOpenAPIClient.a: CMakeFiles/CppRestOpenAPIClient.dir/src/model/Tag.cpp
 libCppRestOpenAPIClient.a: CMakeFiles/CppRestOpenAPIClient.dir/src/model/User.cpp.o
 libCppRestOpenAPIClient.a: CMakeFiles/CppRestOpenAPIClient.dir/build.make
 libCppRestOpenAPIClient.a: CMakeFiles/CppRestOpenAPIClient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/OzzieT7/APIs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX static library libCppRestOpenAPIClient.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX static library libCppRestOpenAPIClient.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/CppRestOpenAPIClient.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CppRestOpenAPIClient.dir/link.txt --verbose=$(VERBOSE)
 
@@ -381,6 +381,6 @@ CMakeFiles/CppRestOpenAPIClient.dir/clean:
 .PHONY : CMakeFiles/CppRestOpenAPIClient.dir/clean
 
 CMakeFiles/CppRestOpenAPIClient.dir/depend:
-	cd /home/OzzieT7/APIs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/OzzieT7/APIs /home/OzzieT7/APIs /home/OzzieT7/APIs /home/OzzieT7/APIs /home/OzzieT7/APIs/CMakeFiles/CppRestOpenAPIClient.dir/DependInfo.cmake "--color=$(COLOR)" CppRestOpenAPIClient
+	cd "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI" "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI" "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI" "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI" "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles/CppRestOpenAPIClient.dir/DependInfo.cmake" "--color=$(COLOR)" CppRestOpenAPIClient
 .PHONY : CMakeFiles/CppRestOpenAPIClient.dir/depend
 

@@ -57,10 +57,10 @@ RM = /home/linuxbrew/.linuxbrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/OzzieT7/APIs
+CMAKE_SOURCE_DIR = "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/OzzieT7/APIs
+CMAKE_BINARY_DIR = "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/OzzieT7/APIs/CMakeFiles /home/OzzieT7/APIs//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/OzzieT7/APIs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -173,6 +173,43 @@ CppRestOpenAPIClient: cmake_check_build_system
 CppRestOpenAPIClient/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppRestOpenAPIClient.dir/build.make CMakeFiles/CppRestOpenAPIClient.dir/build
 .PHONY : CppRestOpenAPIClient/fast
+
+#=============================================================================
+# Target rules for targets named petstore_example
+
+# Build rule for target.
+petstore_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 petstore_example
+.PHONY : petstore_example
+
+# fast build rule for target.
+petstore_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petstore_example.dir/build.make CMakeFiles/petstore_example.dir/build
+.PHONY : petstore_example/fast
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petstore_example.dir/build.make CMakeFiles/petstore_example.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petstore_example.dir/build.make CMakeFiles/petstore_example.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/petstore_example.dir/build.make CMakeFiles/petstore_example.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 src/AnyType.o: src/AnyType.cpp.o
 .PHONY : src/AnyType.o
@@ -619,6 +656,10 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... CppRestOpenAPIClient"
+	@echo "... petstore_example"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... src/AnyType.o"
 	@echo "... src/AnyType.i"
 	@echo "... src/AnyType.s"

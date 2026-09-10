@@ -89,3 +89,9 @@ install(
     EXPORT ${PROJECT_NAME}Targets
     DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME}
 )
+
+find_package(OpenSSL REQUIRED)
+
+add_executable(petstore_example main.cpp)
+
+target_link_libraries(petstore_example PRIVATE CppRestOpenAPIClient OpenSSL::SSL OpenSSL::Crypto)

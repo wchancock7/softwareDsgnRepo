@@ -6,5 +6,5 @@ CXX_DEFINES = -DCPPREST_EXCLUDE_WEBSOCKETS=1 -DCPPREST_FORCE_HTTP_CLIENT_ASIO -D
 
 CXX_INCLUDES = -I"/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/include" -isystem /var/home/linuxbrew/.linuxbrew/include -isystem /home/linuxbrew/.linuxbrew/include
 
-CXX_FLAGS = -I/usr/local/opt/openssl/include -O3 -DNDEBUG -std=gnu++20 -fPIC -Wall -Wno-unused-variable -Wno-unused-lambda-capture
+CXX_FLAGS = -I/usr/local/opt/openssl/include -O3 -DNDEBUG -std=gnu++20 -fPIE
 

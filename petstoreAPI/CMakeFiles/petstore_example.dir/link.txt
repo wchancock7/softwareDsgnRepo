@@ -1,0 +1,1 @@
+/usr/bin/c++ -I/usr/local/opt/openssl/include -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/petstore_example.dir/link.d CMakeFiles/petstore_example.dir/main.cpp.o -o petstore_example  -Wl,-rpath,/home/linuxbrew/.linuxbrew/lib libCppRestOpenAPIClient.a /usr/lib64/libssl.so /usr/lib64/libcrypto.so /home/linuxbrew/.linuxbrew/lib/libcpprest.so.2.10
