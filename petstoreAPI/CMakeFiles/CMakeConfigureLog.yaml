@@ -1,0 +1,4060 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    searched_directories:
+      - "/home/OzzieT7/.local/bin/uname"
+      - "/home/OzzieT7/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      The system is: Linux - 7.2.0-ogc6.1.fc44.x86_64 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    searched_directories:
+      - "/home/OzzieT7/.local/bin/gmake"
+      - "/home/OzzieT7/bin/gmake"
+      - "/usr/local/bin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    searched_directories:
+      - "/home/OzzieT7/.local/bin/c++"
+      - "/home/OzzieT7/bin/c++"
+      - "/usr/local/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/"
+    found: "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: -I/usr/local/opt/openssl/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/OzzieT7/APIs/CMakeFiles/4.4.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/OzzieT7/.local/bin/dlltool"
+      - "/home/OzzieT7/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/home/linuxbrew/.linuxbrew/bin/dlltool"
+      - "/home/linuxbrew/.linuxbrew/sbin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/OzzieT7/.local/bin/tapi"
+      - "/home/OzzieT7/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/home/linuxbrew/.linuxbrew/bin/tapi"
+      - "/home/linuxbrew/.linuxbrew/sbin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.2"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-16.2"
+      - "/home/OzzieT7/.local/bin/gcc-ar-16.2"
+      - "/home/OzzieT7/bin/gcc-ar-16.2"
+      - "/usr/local/bin/gcc-ar-16.2"
+      - "/bin/gcc-ar-16.2"
+      - "/usr/local/sbin/gcc-ar-16.2"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ar-16.2"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ar-16.2"
+      - "/usr/bin/gcc-ar-16"
+      - "/home/OzzieT7/.local/bin/gcc-ar-16"
+      - "/home/OzzieT7/bin/gcc-ar-16"
+      - "/usr/local/bin/gcc-ar-16"
+      - "/bin/gcc-ar-16"
+      - "/usr/local/sbin/gcc-ar-16"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ar-16"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ar-16"
+      - "/usr/bin/gcc-ar16"
+      - "/home/OzzieT7/.local/bin/gcc-ar16"
+      - "/home/OzzieT7/bin/gcc-ar16"
+      - "/usr/local/bin/gcc-ar16"
+      - "/bin/gcc-ar16"
+      - "/usr/local/sbin/gcc-ar16"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ar16"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ar16"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:13 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.2"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-16.2"
+      - "/home/OzzieT7/.local/bin/gcc-ranlib-16.2"
+      - "/home/OzzieT7/bin/gcc-ranlib-16.2"
+      - "/usr/local/bin/gcc-ranlib-16.2"
+      - "/bin/gcc-ranlib-16.2"
+      - "/usr/local/sbin/gcc-ranlib-16.2"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib-16.2"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ranlib-16.2"
+      - "/usr/bin/gcc-ranlib-16"
+      - "/home/OzzieT7/.local/bin/gcc-ranlib-16"
+      - "/home/OzzieT7/bin/gcc-ranlib-16"
+      - "/usr/local/bin/gcc-ranlib-16"
+      - "/bin/gcc-ranlib-16"
+      - "/usr/local/sbin/gcc-ranlib-16"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib-16"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ranlib-16"
+      - "/usr/bin/gcc-ranlib16"
+      - "/home/OzzieT7/.local/bin/gcc-ranlib16"
+      - "/home/OzzieT7/bin/gcc-ranlib16"
+      - "/usr/local/bin/gcc-ranlib16"
+      - "/bin/gcc-ranlib16"
+      - "/usr/local/sbin/gcc-ranlib16"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib16"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ranlib16"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/OzzieT7/APIs/CMakeFiles/CMakeScratch/TryCompile-5JIhz3"
+      binary: "/home/OzzieT7/APIs/CMakeFiles/CMakeScratch/TryCompile-5JIhz3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/usr/local/opt/openssl/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/OzzieT7/APIs/CMakeFiles/CMakeScratch/TryCompile-5JIhz3'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_39576/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_39576.dir/build.make CMakeFiles/cmTC_39576.dir/build
+        gmake[1]: Entering directory '/var/home/OzzieT7/APIs/CMakeFiles/CMakeScratch/TryCompile-5JIhz3'
+        Building CXX object CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -I/usr/local/opt/openssl/include    -v -o CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,cobol,algol68,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.2.1-build/gcc-16.2.1-20260819/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.2.1 20260819 (Red Hat 16.2.1-2) (GCC) 
+        COLLECT_GCC_OPTIONS='-I' '/usr/local/opt/openssl/include' '-v' '-o' 'CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_39576.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/16/cc1plus -quiet -v -I /usr/local/opt/openssl/include -D_GNU_SOURCE /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_39576.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/ccHBeS4T.s
+        GNU C++20 (GCC) version 16.2.1 20260819 (Red Hat 16.2.1-2) (x86_64-redhat-linux)
+        	compiled by GNU C version 16.2.1 20260819 (Red Hat 16.2.1-2), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include"
+        ignoring nonexistent directory "/usr/local/opt/openssl/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16
+         /usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux
+         /usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/backward
+         /usr/lib/gcc/x86_64-redhat-linux/16/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 65ab9aa42e0ee60985a3e473fe6610c4
+        COLLECT_GCC_OPTIONS='-I' '/usr/local/opt/openssl/include' '-v' '-o' 'CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_39576.dir/'
+         as -v -I /usr/local/opt/openssl/include --64 -o CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccHBeS4T.s
+        GNU assembler version 2.46.1 (x86_64-redhat-linux) using BFD version version 2.46.1-1.fc44
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-I' '/usr/local/opt/openssl/include' '-v' '-o' 'CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_39576
+        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39576.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,cobol,algol68,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.2.1-build/gcc-16.2.1-20260819/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.2.1 20260819 (Red Hat 16.2.1-2) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-I' '/usr/local/opt/openssl/include' '-v' '-o' 'cmTC_39576' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_39576.'
+         /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgpmO7c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_39576 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+        collect2 version 16.2.1 20260819 (Red Hat 16.2.1-2)
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgpmO7c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_39576 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+        GNU ld version 2.46.1-1.fc44
+        COLLECT_GCC_OPTIONS='-I' '/usr/local/opt/openssl/include' '-v' '-o' 'cmTC_39576' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_39576.'
+        /usr/bin/c++ -I/usr/local/opt/openssl/include   -v -Wl,-v CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_39576
+        gmake[1]: Leaving directory '/var/home/OzzieT7/APIs/CMakeFiles/CMakeScratch/TryCompile-5JIhz3'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/backward]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/16/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16] ==> [/usr/include/c++/16]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux] ==> [/usr/include/c++/16/x86_64-redhat-linux]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/backward] ==> [/usr/include/c++/16/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/16/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/16/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/16;/usr/include/c++/16/x86_64-redhat-linux;/usr/include/c++/16/backward;/usr/lib/gcc/x86_64-redhat-linux/16/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/OzzieT7/APIs/CMakeFiles/CMakeScratch/TryCompile-5JIhz3']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_39576/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_39576.dir/build.make CMakeFiles/cmTC_39576.dir/build]
+        ignore line: [gmake[1]: Entering directory '/var/home/OzzieT7/APIs/CMakeFiles/CMakeScratch/TryCompile-5JIhz3']
+        ignore line: [Building CXX object CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -I/usr/local/opt/openssl/include    -v -o CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 cobol algol68 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.2.1-build/gcc-16.2.1-20260819/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.2.1 20260819 (Red Hat 16.2.1-2) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-I' '/usr/local/opt/openssl/include' '-v' '-o' 'CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_39576.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/cc1plus -quiet -v -I /usr/local/opt/openssl/include -D_GNU_SOURCE /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_39576.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/ccHBeS4T.s]
+        ignore line: [GNU C++20 (GCC) version 16.2.1 20260819 (Red Hat 16.2.1-2) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 16.2.1 20260819 (Red Hat 16.2.1-2)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include"]
+        ignore line: [ignoring nonexistent directory "/usr/local/opt/openssl/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/16/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 65ab9aa42e0ee60985a3e473fe6610c4]
+        ignore line: [COLLECT_GCC_OPTIONS='-I' '/usr/local/opt/openssl/include' '-v' '-o' 'CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_39576.dir/']
+        ignore line: [ as -v -I /usr/local/opt/openssl/include --64 -o CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccHBeS4T.s]
+        ignore line: [GNU assembler version 2.46.1 (x86_64-redhat-linux) using BFD version version 2.46.1-1.fc44]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-I' '/usr/local/opt/openssl/include' '-v' '-o' 'CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_39576]
+        ignore line: [/home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39576.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 cobol algol68 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.2.1-build/gcc-16.2.1-20260819/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.2.1 20260819 (Red Hat 16.2.1-2) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-I' '/usr/local/opt/openssl/include' '-v' '-o' 'cmTC_39576' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_39576.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgpmO7c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_39576 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/16/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccgpmO7c.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_39576] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/16] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/16]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/16/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-latomic_asneeded] ==> lib [atomic_asneeded]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        ignore line: [collect2 version 16.2.1 20260819 (Red Hat 16.2.1-2)]
+        link line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgpmO7c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_39576 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgpmO7c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_39576 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgpmO7c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_39576 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_39576.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld -m;elf
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/16] ==> [/usr/lib/gcc/x86_64-redhat-linux/16]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;atomic_asneeded;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/16;/usr/lib64;/lib64;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.46.1-1.fc44
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindZLIB.cmake:165 (find_path)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:3 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    mode: "path"
+    variable: "ZLIB_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "zlib.h"
+    candidate_directories:
+      - "/home/OzzieT7/.local/bin/include/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/include/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/include/"
+      - "/usr/local/bin/"
+      - "/usr/bin/include/"
+      - "/usr/bin/"
+      - "/bin/include/"
+      - "/bin/"
+      - "/usr/local/sbin/include/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/include/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/include/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/usr/local/include/include/"
+      - "/usr/local/include/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/include/"
+      - "/include/"
+      - "/home/linuxbrew/.linuxbrew/include/include/"
+      - "/home/linuxbrew/.linuxbrew/include/"
+      - "/home/linuxbrew/.linuxbrew/include/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/usr/X11R6/include/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/include/"
+      - "/opt/include/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/include/"
+      - "/usr/include/X11/"
+      - "/zlib/include/"
+      - "/zlib/"
+    searched_directories:
+      - "/home/OzzieT7/.local/bin/include/zlib.h"
+      - "/home/OzzieT7/.local/bin/zlib.h"
+      - "/home/OzzieT7/bin/include/zlib.h"
+      - "/home/OzzieT7/bin/zlib.h"
+      - "/usr/local/bin/include/zlib.h"
+      - "/usr/local/bin/zlib.h"
+      - "/usr/bin/include/zlib.h"
+      - "/usr/bin/zlib.h"
+      - "/bin/include/zlib.h"
+      - "/bin/zlib.h"
+      - "/usr/local/sbin/include/zlib.h"
+      - "/usr/local/sbin/zlib.h"
+      - "/home/linuxbrew/.linuxbrew/bin/include/zlib.h"
+      - "/home/linuxbrew/.linuxbrew/bin/zlib.h"
+      - "/home/linuxbrew/.linuxbrew/sbin/include/zlib.h"
+      - "/home/linuxbrew/.linuxbrew/sbin/zlib.h"
+      - "/usr/local/include/include/zlib.h"
+      - "/usr/local/include/zlib.h"
+      - "/usr/local/include/zlib.h"
+      - "/usr/local/zlib.h"
+      - "/usr/include/include/zlib.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindZLIB.cmake:195 (find_library)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:3 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    mode: "library"
+    variable: "ZLIB_LIBRARY_RELEASE"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "z"
+      - "zlib"
+      - "zdll"
+      - "zlib1"
+      - "zlibstatic"
+      - "zlibwapi"
+      - "zlibvc"
+      - "zlibstat"
+    candidate_directories:
+      - "/home/OzzieT7/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+    searched_directories:
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+    found: "/usr/lib64/libz.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindZLIB.cmake:196 (find_library)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:3 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    mode: "library"
+    variable: "ZLIB_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "zd"
+      - "zlibd"
+      - "zdlld"
+      - "zlibd1"
+      - "zlib1d"
+      - "zlibstaticd"
+      - "zlibwapid"
+      - "zlibvcd"
+      - "zlibstatd"
+    candidate_directories:
+      - "/home/OzzieT7/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+    searched_directories:
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindOpenSSL.cmake:295 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:11 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/OzzieT7/.local/bin/pkg-config"
+      - "/home/OzzieT7/.local/bin/pkgconf"
+      - "/home/OzzieT7/bin/pkg-config"
+      - "/home/OzzieT7/bin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+    found: "/usr/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindOpenSSL.cmake:297 (pkg_check_modules)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:11 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib__OPENSSL_ssl"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ssl"
+    candidate_directories:
+      - "/usr/lib64/"
+    found: "/usr/lib64/libssl.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindOpenSSL.cmake:297 (pkg_check_modules)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:11 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib__OPENSSL_crypto"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "crypto"
+    candidate_directories:
+      - "/usr/lib64/"
+    found: "/usr/lib64/libcrypto.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindOpenSSL.cmake:370 (find_path)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:11 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    mode: "path"
+    variable: "OPENSSL_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openssl/ssl.h"
+    candidate_directories:
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/home/OzzieT7/.local/bin/include/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/home/OzzieT7/bin/include/"
+      - "/home/OzzieT7/bin/"
+      - "/usr/local/bin/include/"
+      - "/usr/local/bin/"
+      - "/usr/bin/include/"
+      - "/usr/bin/"
+      - "/bin/include/"
+      - "/bin/"
+      - "/usr/local/sbin/include/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/include/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/include/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/usr/local/include/include/"
+      - "/usr/local/include/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/include/"
+      - "/include/"
+      - "/home/linuxbrew/.linuxbrew/include/include/"
+      - "/home/linuxbrew/.linuxbrew/include/"
+      - "/home/linuxbrew/.linuxbrew/include/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/usr/X11R6/include/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/include/"
+      - "/opt/include/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/include/"
+      - "/usr/include/X11/"
+    searched_directories:
+      - "/usr/include/include/openssl/ssl.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindOpenSSL.cmake:628 (find_library)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:11 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    mode: "library"
+    variable: "OPENSSL_SSL_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ssl"
+      - "ssleay32"
+      - "ssleay32MD"
+    candidate_directories:
+      - "/usr/lib64/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+    found: "/usr/lib64/libssl.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindOpenSSL.cmake:642 (find_library)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:11 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    mode: "library"
+    variable: "OPENSSL_CRYPTO_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "crypto"
+    candidate_directories:
+      - "/usr/lib64/"
+      - "/home/OzzieT7/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/lib/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+    found: "/usr/lib64/libcrypto.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:126 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:177 (boost_find_component)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:20 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    name: "boost_headers"
+    configs:
+      -
+        filename: "boost_headers.cps"
+        kind: "cps"
+      -
+        filename: "boost_headersConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_headers-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/linuxbrew/.linuxbrew/lib/cmake"
+      names:
+        - "boost_headers"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_headers-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib64/cps/boost_headers.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib/cps/boost_headers.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/share/cps/boost_headers.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_headers-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_headers-1.92.0/boost_headersConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_headers-1.92.0/boost_headers-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:126 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:379 (boost_find_component)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:20 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    name: "boost_random"
+    configs:
+      -
+        filename: "boost_random.cps"
+        kind: "cps"
+      -
+        filename: "boost_randomConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_random-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/linuxbrew/.linuxbrew/lib/cmake"
+      names:
+        - "boost_random"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_randomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_random-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib64/cps/boost_random.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib/cps/boost_random.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/share/cps/boost_random.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_randomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_random-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_random-1.92.0/boost_randomConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_random-1.92.0/boost_random-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/boost_thread-1.92.0/boost_thread-config.cmake:104 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:126 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:379 (boost_find_component)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:20 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    name: "boost_atomic"
+    configs:
+      -
+        filename: "boost_atomic.cps"
+        kind: "cps"
+      -
+        filename: "boost_atomicConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_atomic-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/linuxbrew/.linuxbrew/lib/cmake"
+      names:
+        - "boost_atomic"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_atomicConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_atomic-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib64/cps/boost_atomic.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib/cps/boost_atomic.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/share/cps/boost_atomic.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_atomicConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_atomic-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_atomic-1.92.0/boost_atomicConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_atomic-1.92.0/boost_atomic-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/boost_thread-1.92.0/boost_thread-config.cmake:104 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:126 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:379 (boost_find_component)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:20 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    name: "boost_chrono"
+    configs:
+      -
+        filename: "boost_chrono.cps"
+        kind: "cps"
+      -
+        filename: "boost_chronoConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_chrono-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/linuxbrew/.linuxbrew/lib/cmake"
+      names:
+        - "boost_chrono"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_chronoConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_chrono-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib64/cps/boost_chrono.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib/cps/boost_chrono.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/share/cps/boost_chrono.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_chronoConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_chrono-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_chrono-1.92.0/boost_chronoConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_chrono-1.92.0/boost_chrono-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/boost_thread-1.92.0/boost_thread-config.cmake:104 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:126 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:379 (boost_find_component)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:20 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    name: "boost_container"
+    configs:
+      -
+        filename: "boost_container.cps"
+        kind: "cps"
+      -
+        filename: "boost_containerConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_container-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/linuxbrew/.linuxbrew/lib/cmake"
+      names:
+        - "boost_container"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_containerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_container-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib64/cps/boost_container.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib/cps/boost_container.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/share/cps/boost_container.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_containerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_container-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_container-1.92.0/boost_containerConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_container-1.92.0/boost_container-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/boost_date_time-1.92.0/boost_date_time-config.cmake:104 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/boost_thread-1.92.0/boost_thread-config.cmake:104 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:126 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:379 (boost_find_component)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:20 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    name: "boost_exception"
+    configs:
+      -
+        filename: "boost_exception.cps"
+        kind: "cps"
+      -
+        filename: "boost_exceptionConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_exception-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/linuxbrew/.linuxbrew/lib/cmake"
+      names:
+        - "boost_exception"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_exceptionConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_exception-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib64/cps/boost_exception.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib/cps/boost_exception.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/share/cps/boost_exception.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_exceptionConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_exception-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_exception-1.92.0/boost_exceptionConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_exception-1.92.0/boost_exception-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/boost_thread-1.92.0/boost_thread-config.cmake:104 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:126 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:379 (boost_find_component)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:20 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    name: "boost_date_time"
+    configs:
+      -
+        filename: "boost_date_time.cps"
+        kind: "cps"
+      -
+        filename: "boost_date_timeConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_date_time-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/linuxbrew/.linuxbrew/lib/cmake"
+      names:
+        - "boost_date_time"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_date_timeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_date_time-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib64/cps/boost_date_time.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib/cps/boost_date_time.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/share/cps/boost_date_time.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_date_timeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_date_time-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_date_time-1.92.0/boost_date_timeConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_date_time-1.92.0/boost_date_time-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/boost_thread-1.92.0/boost_thread-config.cmake:120 (find_dependency)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:126 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:379 (boost_find_component)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:20 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    directories:
+      source: "/home/OzzieT7/APIs/CMakeFiles/CMakeScratch/TryCompile-T6sRc5"
+      binary: "/home/OzzieT7/APIs/CMakeFiles/CMakeScratch/TryCompile-T6sRc5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-I/usr/local/opt/openssl/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/OzzieT7/APIs/CMakeFiles/CMakeScratch/TryCompile-T6sRc5'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f30ed/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f30ed.dir/build.make CMakeFiles/cmTC_f30ed.dir/build
+        gmake[1]: Entering directory '/var/home/OzzieT7/APIs/CMakeFiles/CMakeScratch/TryCompile-T6sRc5'
+        Building CXX object CMakeFiles/cmTC_f30ed.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -I/usr/local/opt/openssl/include  -std=gnu++20 -fPIE -o CMakeFiles/cmTC_f30ed.dir/src.cxx.o -c /home/OzzieT7/APIs/CMakeFiles/CMakeScratch/TryCompile-T6sRc5/src.cxx
+        Linking CXX executable cmTC_f30ed
+        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f30ed.dir/link.txt --verbose=1
+        /usr/bin/c++ -I/usr/local/opt/openssl/include  CMakeFiles/cmTC_f30ed.dir/src.cxx.o -o cmTC_f30ed
+        gmake[1]: Leaving directory '/var/home/OzzieT7/APIs/CMakeFiles/CMakeScratch/TryCompile-T6sRc5'
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:126 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:379 (boost_find_component)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:20 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    name: "boost_thread"
+    configs:
+      -
+        filename: "boost_thread.cps"
+        kind: "cps"
+      -
+        filename: "boost_threadConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_thread-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/linuxbrew/.linuxbrew/lib/cmake"
+      names:
+        - "boost_thread"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_threadConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_thread-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib64/cps/boost_thread.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib/cps/boost_thread.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/share/cps/boost_thread.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_threadConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_thread-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_thread-1.92.0/boost_threadConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_thread-1.92.0/boost_thread-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:126 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:379 (boost_find_component)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:20 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    name: "boost_filesystem"
+    configs:
+      -
+        filename: "boost_filesystem.cps"
+        kind: "cps"
+      -
+        filename: "boost_filesystemConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_filesystem-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/linuxbrew/.linuxbrew/lib/cmake"
+      names:
+        - "boost_filesystem"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_filesystemConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_filesystem-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib64/cps/boost_filesystem.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib/cps/boost_filesystem.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/share/cps/boost_filesystem.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_filesystemConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_filesystem-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_filesystem-1.92.0/boost_filesystemConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_filesystem-1.92.0/boost_filesystem-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:126 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake:379 (boost_find_component)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:20 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    name: "boost_regex"
+    configs:
+      -
+        filename: "boost_regex.cps"
+        kind: "cps"
+      -
+        filename: "boost_regexConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost_regex-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "1.92.0"
+      version_complete: "1.92.0"
+      exact: true
+    settings:
+      required: "required_explicit"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/linuxbrew/.linuxbrew/lib/cmake"
+      names:
+        - "boost_regex"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_regexConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost_regex-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib64/cps/boost_regex.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib/cps/boost_regex.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/share/cps/boost_regex.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_regexConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_regex-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_regex_old-1.92.0/boost_regexConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_regex_old-1.92.0/boost_regex-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_regex-1.92.0/boost_regexConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_regex-1.92.0/boost_regex-config.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:610 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:20 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    name: "Boost"
+    components:
+      -
+        name: "random"
+        required: true
+        found: true
+      -
+        name: "thread"
+        required: true
+        found: true
+      -
+        name: "filesystem"
+        required: true
+        found: true
+      -
+        name: "chrono"
+        required: true
+        found: true
+      -
+        name: "atomic"
+        required: true
+        found: true
+      -
+        name: "date_time"
+        required: true
+        found: true
+      -
+        name: "regex"
+        required: true
+        found: true
+    configs:
+      -
+        filename: "Boost.cps"
+        kind: "cps"
+      -
+        filename: "boost.cps"
+        kind: "cps"
+      -
+        filename: "BoostConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "boost-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Boost"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib64/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib64/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/share/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/share/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/.local/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/.local/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/.local/lib64/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/.local/lib64/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/.local/lib/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/.local/lib/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/.local/share/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/.local/share/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/lib64/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/lib64/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/lib/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/lib/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/share/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/share/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/lib64/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/lib64/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/lib/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/lib/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/share/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/share/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib64/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib64/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/share/cps/Boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/share/cps/boost.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_wserialization-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_wserialization-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_wave-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_wave-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_url-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_url-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_unit_test_framework-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_unit_test_framework-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_type_erasure-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_type_erasure-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_timer-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_timer-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_thread-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_thread-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_test_exec_monitor-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_test_exec_monitor-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_system-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_system-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_stacktrace_noop-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_stacktrace_noop-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_stacktrace_from_exception-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_stacktrace_from_exception-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_stacktrace_dump-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_stacktrace_dump-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_stacktrace_basic-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_stacktrace_basic-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_stacktrace_backtrace-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_stacktrace_backtrace-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_stacktrace_addr2line-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_stacktrace_addr2line-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_serialization-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_serialization-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_regex_old-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_regex_old-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_regex-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_regex-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_random-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_random-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_program_options-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_program_options-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_process-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_process-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_prg_exec_monitor-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_prg_exec_monitor-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_nowide-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_nowide-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math_tr1l-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math_tr1l-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math_tr1f-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math_tr1f-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math_tr1-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math_tr1-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math_c99l-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math_c99l-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math_c99f-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math_c99f-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math_c99-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math_c99-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_math-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_log_setup-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_log_setup-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_log-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_log-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_locale-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_locale-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_json-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_json-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_iostreams-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_iostreams-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_headers-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_headers-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_graph_parallel-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_graph_parallel-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_graph-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_graph-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_filesystem-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_filesystem-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_fiber-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_fiber-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_exception-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_exception-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_date_time-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_date_time-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_coroutine-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_coroutine-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_contract-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_contract-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_context-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_context-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_container-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_container-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_chrono-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_chrono-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_charconv-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_charconv-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_atomic-1.92.0/BoostConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/boost_atomic-1.92.0/boost-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/lib/cmake/Boost-1.92.0/BoostConfig.cmake"
+      mode: "config"
+      version: "1.92.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:538 (find_path)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindBoost.cmake:643 (_boost_set_legacy_variables_from_config)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake:20 (find_dependency)"
+      - "CMakeLists.txt:38 (find_package)"
+    mode: "path"
+    variable: "Boost_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "boost/version.hpp"
+      - "boost/config.hpp"
+    candidate_directories:
+      - "/var/home/linuxbrew/.linuxbrew/include/"
+    found: "/var/home/linuxbrew/.linuxbrew/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:38 (find_package)"
+    name: "cpprestsdk"
+    configs:
+      -
+        filename: "cpprestsdk.cps"
+        kind: "cps"
+      -
+        filename: "cpprestsdkConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "cpprestsdk-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "cpprestsdk"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/cpprestsdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/cpprestsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib64/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/lib/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/APIs/CMakeFiles/pkgRedirects/share/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/.local/cpprestsdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/.local/cpprestsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/.local/lib64/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/.local/lib/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/.local/share/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/cpprestsdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/cpprestsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/lib64/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/lib/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/OzzieT7/share/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cpprestsdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cpprestsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/cpprestsdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/cpprestsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib64/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/cpprestsdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/cpprestsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/lib64/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/lib/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/share/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/cpprestsdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/cpprestsdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib64/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/share/cps/cpprestsdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/linuxbrew/.linuxbrew/lib/cmake/cpprestsdk/cpprestsdk-config.cmake"
+      mode: "config"
+      version: "2.10.19"
+    search_context:
+      ENV{PATH}:
+        - "/home/OzzieT7/.local/bin"
+        - "/home/OzzieT7/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...

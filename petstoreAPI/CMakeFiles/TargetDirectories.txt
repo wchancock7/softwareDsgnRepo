@@ -1,0 +1,7 @@
+/home/OzzieT7/APIs/CMakeFiles/CppRestOpenAPIClient.dir
+/home/OzzieT7/APIs/CMakeFiles/edit_cache.dir
+/home/OzzieT7/APIs/CMakeFiles/rebuild_cache.dir
+/home/OzzieT7/APIs/CMakeFiles/list_install_components.dir
+/home/OzzieT7/APIs/CMakeFiles/install.dir
+/home/OzzieT7/APIs/CMakeFiles/install/local.dir
+/home/OzzieT7/APIs/CMakeFiles/install/strip.dir
