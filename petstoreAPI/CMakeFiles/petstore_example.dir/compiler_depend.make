@@ -867,6 +867,54 @@ CMakeFiles/petstore_example.dir/main.cpp.o: main.cpp \
   /var/home/linuxbrew/.linuxbrew/include/pplx/pplxlinux.h \
   /var/home/linuxbrew/.linuxbrew/include/pplx/pplxtasks.h
 
+petstore_example: /home/linuxbrew/.linuxbrew/lib/libcpprest.so.2.10 \
+  /home/linuxbrew/.linuxbrew/lib/libz.so.1 \
+  /lib64/ld-linux-x86-64.so.2 \
+  /lib64/libc.so.6 \
+  /lib64/libgcc_s.so.1 \
+  /lib64/libm.so.6 \
+  /lib64/libmvec.so.1 \
+  /usr/lib64/crt1.o \
+  /usr/lib64/crti.o \
+  /usr/lib64/crtn.o \
+  /usr/lib64/libc.so \
+  /usr/lib64/libm.so \
+  /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o \
+  /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o \
+  /usr/lib/gcc/x86_64-redhat-linux/16/libatomic.so \
+  /usr/lib/gcc/x86_64-redhat-linux/16/libatomic_asneeded.so \
+  /usr/lib/gcc/x86_64-redhat-linux/16/libgcc.a \
+  /usr/lib/gcc/x86_64-redhat-linux/16/libgcc_s.so \
+  /usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so \
+  /usr/lib64/libatomic.so.1.2.0 \
+  /usr/lib64/libc_nonshared.a \
+  /usr/lib64/libcrypto.so \
+  /usr/lib64/libssl.so \
+  CMakeFiles/petstore_example.dir/main.cpp.o \
+  libCppRestOpenAPIClient.a
+
+
+CMakeFiles/petstore_example.dir/main.cpp.o:
+
+/usr/lib64/libcrypto.so:
+
+/usr/lib64/libc_nonshared.a:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/libgcc_s.so:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/libgcc.a:
+
+/usr/lib64/crt1.o:
+
+/lib64/libm.so.6:
+
+/lib64/libgcc_s.so.1:
+
+/lib64/libc.so.6:
+
+/lib64/ld-linux-x86-64.so.2:
+
+/home/linuxbrew/.linuxbrew/lib/libcpprest.so.2.10:
 
 /var/home/linuxbrew/.linuxbrew/include/pplx/pplxlinux.h:
 
@@ -1120,6 +1168,8 @@ CMakeFiles/petstore_example.dir/main.cpp.o: main.cpp \
 
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/ip/impl/address_v4.ipp:
 
+/home/linuxbrew/.linuxbrew/lib/libz.so.1:
+
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/ip/impl/address_v4.hpp:
 
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/ip/impl/address.ipp:
@@ -1134,6 +1184,8 @@ CMakeFiles/petstore_example.dir/main.cpp.o: main.cpp \
 
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/ip/address.hpp:
 
+/usr/lib64/libm.so:
+
 /var/home/linuxbrew/.linuxbrew/include/boost/none_t.hpp:
 
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/io_context.hpp:
@@ -1143,6 +1195,8 @@ CMakeFiles/petstore_example.dir/main.cpp.o: main.cpp \
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/impl/io_context.hpp:
 
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/impl/execution_context.hpp:
+
+/usr/lib64/libatomic.so.1.2.0:
 
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/impl/error.ipp:
 
@@ -1304,6 +1358,8 @@ CMakeFiles/petstore_example.dir/main.cpp.o: main.cpp \
 
 /usr/include/c++/16/bits/new_except.h:
 
+/lib64/libmvec.so.1:
+
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/multiple_exceptions.hpp:
 
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/detail/throw_error.hpp:
@@ -1335,6 +1391,8 @@ CMakeFiles/petstore_example.dir/main.cpp.o: main.cpp \
 /usr/include/c++/16/bits/hash_bytes.h:
 
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/any_io_executor.hpp:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/libatomic.so:
 
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/detail/date_time_fwd.hpp:
 
@@ -1466,6 +1524,8 @@ CMakeFiles/petstore_example.dir/main.cpp.o: main.cpp \
 
 /usr/include/c++/16/bits/cxxabi_init_exception.h:
 
+/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o:
+
 /usr/include/bits/types/struct_sigstack.h:
 
 /usr/include/bits/types/timer_t.h:
@@ -1536,6 +1596,8 @@ CMakeFiles/petstore_example.dir/main.cpp.o: main.cpp \
 
 /usr/include/gnu/stubs-64.h:
 
+/usr/lib64/crtn.o:
+
 /usr/include/c++/16/bits/chrono.h:
 
 /var/home/linuxbrew/.linuxbrew/include/boost/system/system_category.hpp:
@@ -1550,7 +1612,13 @@ CMakeFiles/petstore_example.dir/main.cpp.o: main.cpp \
 
 /usr/include/string.h:
 
+/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o:
+
+/usr/lib64/libc.so:
+
 /usr/include/bits/timerfd.h:
+
+/usr/lib64/crti.o:
 
 /usr/include/bits/types/__fpos64_t.h:
 
@@ -1733,6 +1801,8 @@ include/CppRestOpenAPIClient/IHttpBody.h:
 /usr/include/c++/16/bits/stdexcept_throw.h:
 
 /usr/include/bits/cpu-set.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/16/libatomic_asneeded.so:
 
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/deferred.hpp:
 
@@ -1988,6 +2058,8 @@ include/CppRestOpenAPIClient/ApiClient.h:
 
 include/CppRestOpenAPIClient/model/ApiResponse.h:
 
+/usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so:
+
 /usr/include/c++/16/bits/exception_defines.h:
 
 /usr/include/bits/signum-arch.h:
@@ -2135,6 +2207,8 @@ include/CppRestOpenAPIClient/model/ApiResponse.h:
 /usr/include/c++/16/cstring:
 
 /usr/include/c++/16/bits/stl_uninitialized.h:
+
+libCppRestOpenAPIClient.a:
 
 /usr/include/bits/types/__mbstate_t.h:
 
@@ -2521,6 +2595,8 @@ main.cpp:
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/detail/completion_handler.hpp:
 
 /var/home/linuxbrew/.linuxbrew/include/boost/asio/detail/conditionally_enabled_event.hpp:
+
+/usr/lib64/libssl.so:
 
 /var/home/linuxbrew/.linuxbrew/include/openssl/comp.h:
 
