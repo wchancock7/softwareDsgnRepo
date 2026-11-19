@@ -1,4 +1,4 @@
-# Install script for directory: /home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI
+# Install script for directory: /home/ozziet7/Git Clones/softwareDsgnRepo/petstoreAPI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -43,27 +43,27 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64" TYPE STATIC_LIBRARY FILES "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/libCppRestOpenAPIClient.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ozziet7/Git Clones/softwareDsgnRepo/petstoreAPI/libCppRestOpenAPIClient.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/include/CppRestOpenAPIClient")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ozziet7/Git Clones/softwareDsgnRepo/petstoreAPI/include/CppRestOpenAPIClient")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/CppRestOpenAPIClient" TYPE FILE FILES "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CppRestOpenAPIClientConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/CppRestOpenAPIClient" TYPE FILE FILES "/home/ozziet7/Git Clones/softwareDsgnRepo/petstoreAPI/CppRestOpenAPIClientConfig.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/CppRestOpenAPIClient/CppRestOpenAPIClientTargets.cmake")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/CppRestOpenAPIClient/CppRestOpenAPIClientTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
-         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/CppRestOpenAPIClient/CppRestOpenAPIClientTargets.cmake"
-         "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles/Export/ea3b8524089e49d38726d8a633487a60/CppRestOpenAPIClientTargets.cmake")
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/CppRestOpenAPIClient/CppRestOpenAPIClientTargets.cmake"
+         "/home/ozziet7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles/Export/a2942a8d0bcb450cc5db0973ab58058e/CppRestOpenAPIClientTargets.cmake")
     if(_cmake_export_file_changed)
-      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/CppRestOpenAPIClient/CppRestOpenAPIClientTargets-*.cmake")
+      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/CppRestOpenAPIClient/CppRestOpenAPIClientTargets-*.cmake")
       if(_cmake_old_config_files)
         string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
-        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/CppRestOpenAPIClient/CppRestOpenAPIClientTargets.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/CppRestOpenAPIClient/CppRestOpenAPIClientTargets.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
         unset(_cmake_old_config_files_text)
         file(REMOVE ${_cmake_old_config_files})
       endif()
@@ -71,16 +71,16 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/CppRestOpenAPIClient" TYPE FILE FILES "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles/Export/ea3b8524089e49d38726d8a633487a60/CppRestOpenAPIClientTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/CppRestOpenAPIClient" TYPE FILE FILES "/home/ozziet7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles/Export/a2942a8d0bcb450cc5db0973ab58058e/CppRestOpenAPIClientTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/CppRestOpenAPIClient" TYPE FILE FILES "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles/Export/ea3b8524089e49d38726d8a633487a60/CppRestOpenAPIClientTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/CppRestOpenAPIClient" TYPE FILE FILES "/home/ozziet7/Git Clones/softwareDsgnRepo/petstoreAPI/CMakeFiles/Export/a2942a8d0bcb450cc5db0973ab58058e/CppRestOpenAPIClientTargets-release.cmake")
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/install_local_manifest.txt"
+  file(WRITE "/home/ozziet7/Git Clones/softwareDsgnRepo/petstoreAPI/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -96,6 +96,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/ozziet7/Git Clones/softwareDsgnRepo/petstoreAPI/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

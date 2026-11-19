@@ -12,36 +12,47 @@ using namespace org::openapitools::client::api;
 using namespace org::openapitools::client::model;
 
 int main() {
-    auto configuration = std::make_shared<ApiConfiguration>();
-    configuration->setBaseUrl("https://petstore.swagger.io/v2");
-    auto apiClient = std::make_shared<ApiClient>(configuration);
-    PetApi petApi(apiClient);
-    int petID = 67890;
+    try {
+        auto configuration = std::make_shared<ApiConfiguration>();
+        //configuration->setBaseUrl("http://172.24.8.123:8080/v2");  Andrew's laptop server
+        configuration->setBaseUrl("http://localhost:8080/v2");
+        auto apiClient = std::make_shared<ApiClient>(configuration);
+        PetApi petApi(apiClient);
+        int petID = 67890;
 
-    //POST New Pet with ID: petID
-    std::cout << "\nCreating a new pet..." << std::endl;
+        //POST New Pet with ID: petID
+        std::cout << "\nCreating a new pet..." << std::endl;
 
-    auto newPet = std::make_shared<Pet>();
-    newPet->setId(petID);
-    newPet->setName("Basset Hound");
-    newPet->setStatus(Pet::StatusEnum::AVAILABLE);
+        auto newPet = std::make_shared<Pet>();
+        newPet->setId(petID);
+        newPet->setName("Basset Hound");
+        newPet->setStatus(Pet::StatusEnum::AVAILABLE);
 
-    petApi.addPet(newPet).get();
+        petApi.addPet(newPet).get();
 
-    std::cout << "Pet created successfully!" << std::endl;
+        std::cout << "Pet created successfully!" << std::endl;
 
-    //Get Pet by ID
-    std::cout << "\nLooking up pet #" << petID << "..." << std::endl;
+        //Get Pet by ID
+        std::cout << "\nLooking up pet #" << petID << "..." << std::endl;
 
-    std::shared_ptr<Pet> pet = petApi.getPetById(petID).get();
-    std::cout << "Found pet: " << pet->getName() << std::endl;
-    std::cout << "Status: " << pet->fromStatusEnum(pet->getStatus()) << std::endl;
+        std::shared_ptr<Pet> pet = petApi.getPetById(petID).get();
+        std::cout << "Found pet: " << pet->getName() << std::endl;
+        std::cout << "Status: " << pet->fromStatusEnum(pet->getStatus()) << std::endl;
 
-    //POST Update Pet Status
-    std::cout << "\nUpdating pet status..." << std::endl;
-    pet->setStatus(Pet::StatusEnum::SOLD);
-    petApi.updatePet(pet).get();
-    std::cout << "Pet status updated successfully!\n" << std::endl;
+        //POST Update Pet Status
+        std::cout << "\nUpdating pet status..." << std::endl;
+        pet->setStatus(Pet::StatusEnum::SOLD);
+        petApi.updatePet(pet).get();
+        std::cout << "Pet status updated successfully!\n" << std::endl;
 
-    return 0;
+        return 0;
+    } catch (const ApiException& error) {
+        std::cerr << "Petstore API request failed (HTTP " << error.error_code()
+                  << "): " << error.what() << std::endl;
+        const auto responseBody = error.getContent();
+        if (responseBody) {
+            std::cerr << "Response: " << responseBody->rdbuf() << std::endl;
+        }
+        return 1;
+    }
 }

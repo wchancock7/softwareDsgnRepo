@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/OzzieT7/Git Clones/softwareDsgnRepo/petstoreAPI/main.cpp" "CMakeFiles/petstore_example.dir/main.cpp.o" "gcc" "CMakeFiles/petstore_example.dir/main.cpp.o.d"
+  "/home/ozziet7/Git Clones/softwareDsgnRepo/petstoreAPI/main.cpp" "CMakeFiles/petstore_example.dir/main.cpp.o" "gcc" "CMakeFiles/petstore_example.dir/main.cpp.o.d"
   "" "petstore_example" "gcc" "CMakeFiles/petstore_example.dir/link.d"
   )
 

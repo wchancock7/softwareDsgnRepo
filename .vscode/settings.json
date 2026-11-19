@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/home/ozziet7/Git Repos/softwareDsgnRepo/petstoreAPI"
+    "cmake.sourceDirectory": "/home/ozziet7/Git Repos/softwareDsgnRepo/petstoreAPI",
+    "java.compile.nullAnalysis.mode": "automatic"
 }
