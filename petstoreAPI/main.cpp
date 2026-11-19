@@ -39,11 +39,30 @@ int main() {
         std::cout << "Found pet: " << pet->getName() << std::endl;
         std::cout << "Status: " << pet->fromStatusEnum(pet->getStatus()) << std::endl;
 
+        //PUT Update Pet name
+        std::cout << "\nUpdating pet name..." << std::endl;
+        pet->setName("Basset Hound Updated");
+        petApi.updatePet(pet).get();
+        std::cout << "Pet name updated successfully!\n" << std::endl;
+
         //POST Update Pet Status
         std::cout << "\nUpdating pet status..." << std::endl;
         pet->setStatus(Pet::StatusEnum::SOLD);
         petApi.updatePet(pet).get();
         std::cout << "Pet status updated successfully!\n" << std::endl;
+
+        //GET Pet by status
+        std::cout << "\nLooking up pets by status..." << std::endl;
+        auto pets = petApi.findPetsByStatus(
+            {pet->fromStatusEnum(Pet::StatusEnum::SOLD)}).get();
+        for (const auto& p : pets) {
+            std::cout << "Found pet: " << p->getName() << std::endl;
+        }
+
+        //DELETE Pet by ID
+        std::cout << "\nDeleting pet..." << std::endl;
+        petApi.deletePet(petID, boost::none).get();
+        std::cout << "Pet deleted successfully!\n" << std::endl;
 
         return 0;
     } catch (const ApiException& error) {
